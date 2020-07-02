@@ -1,0 +1,239 @@
+.gLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.search{
+    position: relative;
+    width: 390px;
+    height: 10px;
+}
+.round {
+    width: 100%;
+    border-radius: 19px;
+    border: 0.1px rgb(218, 214, 214) solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 29px;
+}
+.corner {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    height: 20px;
+    width: 19px;
+    z-index: 10;
+    border-radius: 19px;
+    border: none;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png"); 
+    background-repeat: no-repeat;
+    background-size: 85%;
+    opacity: 0.5;
+}   
+
+.sign_in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    font-family: arial,sans-serif;
+    display: inline-block; 
+    line-height: 28px;
+    padding: 0 12px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+    cursor: default;
+    text-decoration: none;
+}
+
+.sign-in:active {
+    box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
+    background: #3c78dc;
+    background: -moz-linear-gradient(top,#3c7ae4,#3f76d3);
+}
+
+header {
+    min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    z-index: 986;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-user-select: -moz-none;
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    
+    }
+
+header > a {
+    color: #5f6368;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 22px;
+    margin: 0 !important;
+    font-size: 13px;    
+    padding-right: 11px;
+}
+
+header > a:hover{
+    text-decoration: underline;
+}
+
+header > a:focus {
+    outline: none;
+}
+.g-buttons{
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 328px;
+    
+    
+
+   
+}
+.g-search, .f-lucky{
+    background-color:rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    cursor: pointer;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 11px;
+    text-decoration: none;
+    color: grey;
+    border-radius: 2px;
+font-size: 15px;
+
+}
+
+.f-lucky:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+ }
+ 
+ .g-search:hover {
+     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+     background-color: #f8f8f8;
+     border: 1px solid #c6c6c6;
+     color: #222;
+  }
+
+  #offrd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mylogo{
+      display: flex;
+      padding-top: 150px;
+      justify-content: center;  
+  }
+
+
+
+.foo{
+  
+    position: fixed;
+    width: 50%;
+    bottom: 42px;    
+    width: 100%;
+    background-color: rgba(242, 242, 242);
+    text-align: left; 
+    padding: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #5f6368;
+
+}
+
+#footer {
+
+    background: #f2f2f2;
+    background-color: rgb(242, 242, 242);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    line-height: 40px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    border-top-color: rgb(228, 228, 228);
+    border-top-style: solid;
+    border-top-width: 1px;
+
+    /* display: flex;
+    align-items: flex-end; */
+    position: absolute;
+    bottom: 0px; 
+    font-family: arial,sans-serif;
+}
+
+#footer-links > a {
+    color: #5f6368;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-size: 13px;
+}
+
+#footer-links > a:hover{
+    text-decoration: underline;
+}
+
+#footer-links > a:focus{
+    outline: none;
+}
+
+#push-right {
+   float: right;
+   padding-right: 25px;
+
+   padding-left: 5px;
+}
+
+#push-right > a {
+    color: #5f6368;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-size: 13px;   
+}
+
+#push-right > a:hover {
+    text-decoration: underline;
+}
+
+#push-right > a:focus {
+    outline: none;
+}
